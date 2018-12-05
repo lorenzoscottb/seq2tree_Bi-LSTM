@@ -10,3 +10,6 @@ structure of a given sentence/set of vectors.
 In my implementation, that focuses but includes as commented code, the max-encoder over the last-encoder structure, I have
 added an intermediate layer, that brings the dimension back to n. Basic intuition and goal of this is to obtain a composed 
 representation that can be mapped in the same space as the vectors from which is originated
+
+
+![Seq2Tree expanded model](/Users/lb540/documents/uni/application/phd_Sussex/Sussex_presentation/seq2tree.jpeg)
