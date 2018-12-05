@@ -1,9 +1,9 @@
 
 
 """""""""
-Bi-LSTM instruction from German (FAIR):
+Encoders basic description:
 
-In full, say that you have hidden vectors
+Say that you have hidden vectors
 f1, f2, f3 and f4 (corresponding to "the brown dog eats") for the forward model and
 b1, b2, b3, b4 (corresponding to "eats dog brown the") for the backward model. 
 Then you either:
@@ -20,10 +20,6 @@ again you concatenate them.
 Then you feed the vectors obtained in this way to a 
 linear classifier to train the probing tasks.
 
-Conneau et al., 2018:
-We use the Stanford parser to generate trees for Europarl 
-source English sentences
- –––> will use seq2tree
 """""
 
 ##############################################
